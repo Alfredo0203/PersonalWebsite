@@ -1,5 +1,6 @@
 body {
     background-color: lightcyan;
+    text-align: center;
   }
 
  #section2 {
@@ -8,6 +9,7 @@ body {
     border-color: grey;
     border-width: 5px;
     width: 5%;
+    text-align: center;
 
   }
 
@@ -17,9 +19,44 @@ body {
     border-color: grey;
     border-width: 5px;
     width: 5%;
+    text-align: center;
     
   }
 
-  h1, h3 {
-      color: lightblue;
+ #name {
+      color: rgb(57, 68, 62);
+      text-align: center;
   }
+
+
+  .btn {
+    background-color: #11cdd4;
+    background-image: -webkit-linear-gradient(top,#11cdd4,#11999e);
+    background-image: -moz-linear-gradient(top,#11cdd4,#11999e);
+    background-image: -ms-linear-gradient(top,#11cdd4,#11999e);
+    background-image: -o-linear-gradient(top,#11cdd4,#11999e);
+    background-image: linear-gradient(top,#11cdd4,#11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+ }
+
+ 
+.btn:hover {
+    background-image: -webkit-linear-gradient(top,#30e3cb,#2bc4ad);
+    background-image: -moz-linear-gradient(top,#30e3cb,#2bc4ad);
+    background-image: -ms-linear-gradient(top,#30e3cb,#2bc4ad);
+    background-image: -o-linear-gradient(top,#30e3cb,#2bc4ad);
+    background-image: linear-gradient(top,#30e3cb,#2bc4ad);
+    background-color: #cca8e9;
+    text-decoration: none;
+ }
+ 
+ 
